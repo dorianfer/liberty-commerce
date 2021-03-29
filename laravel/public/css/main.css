@@ -1,0 +1,526 @@
+html {
+    background: url("https://img.ohmymag.com/s3/fromm/cuisine/default_2020-09-15_8a8490cb-972d-49e5-9585-c4b6762bc4be.jpeg") no-repeat center fixed;
+        background-size: cover;
+    
+    }
+    
+    input {
+        outline: none;
+        border: none;
+    }
+    
+    textarea {
+      outline: none;
+      border: none;
+    }
+    
+    textarea:focus, input:focus {
+      border-color: transparent !important;
+    }
+    
+    button {
+        outline: none !important;
+        border: none;
+        background: transparent;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    iframe {
+        border: none !important;
+    }
+    
+    .text-center {
+        margin-top:5px;
+    }
+    
+    .txt1 {
+      font-family: OpenSans-Regular;
+      font-size: 15px;
+      line-height: 1.4;
+      color: black;
+    }
+    
+    .txt2 {
+      font-family: OpenSans-Regular;
+      font-size: 15px;
+      line-height: 1.4;
+      color: #4272d7;
+    }
+    .limite {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .page {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 75px 0px;
+    }
+    
+    .content {
+        width: 40%;
+        height: 40%;
+        background: #fff;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 30px;
+        padding-top: 120px;
+    
+    }
+    .content1 {
+        width: 40%;
+        height: 40%;
+        background: #fff;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 50px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .bigcontent {
+        display: inline-block;
+        width: 40%;
+        background: #fff;
+        border-radius: 25px;
+        overflow: hidden;
+        padding-top: 35px;
+        padding-bottom:30px;
+    }
+    
+    .loginform {
+      width: 100%;
+    }
+    
+    .title {
+      display: block;
+      font-family: OpenSans-Regular;
+      font-size: 30px;
+      margin-bottom: 3%;
+      color: black;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .info {
+        width: 80%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+        }
+
+
+.input {
+  display: block;
+  width: 80%;
+  background: transparent;
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  height: 65px;
+    padding: 0 25px 0 25px;
+}
+.formbtn {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #4272d7;
+  border-radius:25px;
+  margin-top: 5%;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #333333;
+}
+#flash {
+    background-color: rgb(30,144,255);
+    padding: 10px;
+}
+#croix {
+    text-decoration: none;
+}
+.title {
+    text-align: center;
+    width: 100%;
+    flex: 0.5;
+}
+.info {
+    width: 80%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+  }
+  
+  
+  .input {
+    display: block;
+    width: 80%;
+    background: transparent;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+    height: 65px;
+      padding: 0 25px 0 25px;
+  }  
+  .formbtn {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .button, .button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #4272d7;
+    border-radius:25px;
+    margin-top: 5%;
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  
+  .button:hover .button2:hover{
+    background-color: #333333;
+  }
+  .button2 {
+      text-decoration: none;
+      padding:0;
+      width: 25%;
+      height: 25px;
+      float: right;
+  }
+  #flash {
+      background-color: rgb(30,144,255);
+      padding: 10px;
+  }
+  #croix {
+      text-decoration: none;
+  }
+  .title {
+      text-align: center;
+      width: 100%;
+      flex: 0.5;
+  }
+  #footer {
+    background: none;
+    height: 10%;
+}
+h1 {
+    float: left;
+}
+nav li {
+    padding: 15px;
+    margin: 0 10px;
+    float: right;
+}
+
+.head {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(211,211,211,0.5);
+    padding-bottom: 50px;
+} 
+.text {
+    color : white;
+}
+.logo_name {
+    display: inherit;
+}
+.end {
+    flex:1;
+    padding: 20px;
+    bottom: 0;
+    width: 97%;
+    position: fixed;
+}
+html{
+    display: flex;
+    height: 100%;
+    background: url("https://img.ohmymag.com/s3/fromm/cuisine/default_2020-09-15_8a8490cb-972d-49e5-9585-c4b6762bc4be.jpeg") no-repeat center fixed;
+    background-size: cover;
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+#media {
+    float: right;
+    height: 100%;
+}
+#reseaux a{
+    margin: 10px;
+}
+.connect {
+    flex: 8;
+    display: inline-block;
+    width: 10%;
+    margin: auto;
+    padding: 20px;
+}
+#menu-demo2, #menu-demo2 ul {
+    padding:0;
+    text-align:center;
+}
+#menu-demo2 ul li {
+    display:inherit;
+    border-radius:0;
+}
+#menu-demo2 li {
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 0 0;
+}
+#menu-demo2 ul {
+    position:absolute;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul {
+    max-height:15em;
+}
+#menu-demo2 li:first-child {
+    background-color: #5a3a22;
+}
+#menu-demo2 li:first-child li {
+    background:#da9239;
+}
+#menu-demo2 a {
+    text-decoration:none;
+    display:block;
+    padding:8px 32px;
+    color:#fff;
+    font-family:arial;
+}
+#menu-demo2 ul a {
+    padding:8px 0;
+}
+.logo_name h1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.name {
+    float: right;
+    margin-right: 20px;
+}
+.line {
+    display: flex;
+    flex: 1;
+}
+.line_g {
+    flex:2;
+}
+#catalog {
+    background-color: rgba(211,211,211,0.5);
+}
+.column , .column_g {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+.column_g {
+    flex: 3;
+}
+.column_d {
+    margin: auto;
+    flex: 6;
+}
+.line img {
+    padding: 10px;
+    height: 125px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button_product {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-radius: 25px;
+    background: #5a3a22;
+}
+.button_buy {
+    margin: auto;
+    border-radius: 10px;
+    background: #da9239;
+    float:center;
+}
+.product {
+    height: inherit;
+    display: flex;
+    background: linear-gradient(180deg, rgba(195,79,7,1) 0%, rgba(241,188,40,1) 100%);
+}
+.picture_product {
+    flex: 6;
+}
+.description {
+    flex: 4;
+    text-align: left;
+    font-size: 130%;
+    font-weight: bold;
+}
+.category {
+    flex: 3;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: left;
+}
+#cate {
+    margin: auto;
+}
+.picture_product img {
+    width: 70%;
+    height: auto;
+    padding-top: 20%;
+    display: flex;
+}
+.description p , .category p{
+    margin-left: 10px;
+}
+#title , #price , #title h2{
+    margin: auto;
+}
+#title h2{
+    font-size: -webkit-xxx-large;
+    margin-top: 10%;
+}
+.price_text {
+    text-decoration: underline;
+}
+#price {
+    font-size: 30px;
+}
+.button_buy_product {
+    margin: auto;
+    border-radius: 25px;
+    background: #da9239;
+    padding: 25px 50px;
+}
+.content1 {
+    padding-top: 30px;
+}
+.catalogue {
+    padding: 0px 10%;
+}
+.produit {
+    font-family: roboto;
+    font-size: 25px;
+    width: 19%;
+    display: inline-table;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 20px;
+}
+.produit p {
+    text-align: center;
+}
+#app2{
+    background: none;
+    background: linear-gradient(180deg, rgba(195,79,7,1) 0%, rgba(241,188,40,1) 100%);
+}
+#button_product {
+    display: table-cell;
+}
+.cart{
+    color:white;
+}
+#cate {
+    display: block;
+   margin : auto;
+}
+.bouton_admin {
+    display: block;
+   margin : auto;
+}
+.cookie-containe {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+  
+    transition: 400ms;
+  }
+  
+  .cookie-containe.active {
+    bottom: 0;
+  }
+  
+  .cookie-containe a {
+    color: #f5f6fa;
+  }
+  
+  .cookie-bt {
+    background: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    float:right;
+  }
+table, td {
+    border: 1px solid #333;
+}
+  
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
+}
+table {
+    width: 100%;
+    background-color: white;
+}
+td , th{
+    padding: 10px;
+}
+td {
+    text-align: center;
+}
+.tableau {
+    padding: 2% 5%;
+}
